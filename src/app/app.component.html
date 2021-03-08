@@ -1,0 +1,109 @@
+
+<!----------------------------- Fonts and header details ----------------------------->
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Scada:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<!---------------------------------------- Navigation Bar ---------------------------------------->
+<body>
+  
+
+<nav>
+  <label class="logo">
+    <button class="title" (click)="onHome()">MADE UP</button>
+  </label> 
+
+  <ul>
+    <li><a class="forme">For Me</a></li>
+    <li><a class="Jeans">Jeans</a></li>
+    <li><a class="Shirts">Shirts</a></li>
+    <li><a class="T-Shirts">T-Shirts</a></li>
+    <li><a class="Trousers">Trousers</a></li>
+    <li><a class="Joggers">Joggers</a></li>
+    <li><a class="Shorts">Shorts</a></li>
+    <img class = "search" src = "../assets/images/Search.png" alt="">
+    <img class = "cart" src = "../assets/images/Cart.png" alt="">
+    <img class = "like" src = "../assets/images/Like.png" alt="">
+    <img class = "user" src = "../assets/images/User.png" alt="">
+
+    <div>
+      <button (click) = "navOpen()" class="nav-button-show">
+        <img src="../assets/images/nav-button.png" alt="">
+      </button>
+    </div>
+  </ul>
+
+</nav>
+
+<!------------------------------------------ Home view ------------------------------------------>
+<div *ngIf="home_flag">
+   <app-home-view></app-home-view>
+</div>
+
+<div *ngIf="nav_button">
+  <div class="nav-button">
+    <div class="nav-my-profile">
+      <ul>
+        <li>My Profile</li>
+        <li class="nav-normal-text"> My Wishlist</li>
+        <li class="nav-normal-text1">My Orders</li>
+        <li class="nav-normal-text2">My Addresses</li>
+      </ul>
+
+      <div class="solid-line"></div>
+      
+      <div class="brand">
+        <ul>
+          <li class="nav-headline">The Brand </li> <br>
+          <li>The made up Story </li><br>
+          <li>Franchise and Supplieds </li><br>
+          <li>Store Locator </li><br>
+        </ul>
+      </div>
+        
+    </div>
+  </div>
+</div>
+
+<!------------------------------------------ User Details ------------------------------------------>
+
+<div *ngIf="!home_flag">
+  <p class="home-profile"> Home / My Profile </p>
+
+  <div>
+    <div class="Grishk"></div>
+    <p class="user-name">Grishk</p>
+    <h2 class="email-id">griiskaim@gmail.com</h2>
+  </div>
+
+  <div>
+    <button class="my-profile" (click)="OnProfile()">My Profile</button>
+    <p class="notify">Notifications, password</p>
+    <img src="../assets/images/right-arrow.png" class="first-arrow">
+  </div>
+
+  <div>
+    <button class="my-orders" (click)="OnOrder()">My Orders</button>
+    <p class="order-details">Already have 12 orders</p>
+    <img src="../assets/images/right-arrow.png" class="second-arrow">
+    <div class="order-line"></div>
+  </div>
+
+  <div>
+    <p class="my-address">Shipping Addresses</p>
+    <p class="addres-details">3 Addresses</p>
+    <img src="../assets/images/right-arrow.png" class="third-arrow">
+  </div>
+  
+  <div *ngIf="!nav_button">
+    <app-my-profile *ngIf="profile_flag" [profileFlag] = "profile_flag"></app-my-profile>
+  </div>
+
+  <div *ngIf="!nav_button">
+    <app-my-orders *ngIf="order_flag"  [orderFlag] = "order_flag"></app-my-orders>
+  </div>
+
+</div>
+</body>

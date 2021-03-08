@@ -1,0 +1,902 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+body{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Jost';
+    width: 100%;
+}
+
+.profile-footer{
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    left: 0px;
+    top: 774px;
+    background: #333333;
+}
+.order-footer{
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    left: 0px;
+    top: 1072px;
+    background: #333333;
+}
+
+.home-footer{
+    position: absolute;
+    width: 1280px;
+    height: 360px;
+    left: 0px;
+    top: 2770px;
+    background: #333333;
+}
+
+.footer-items{
+    position: absolute;
+    width: 120px;
+    height: 216px;
+    left:254px;
+    top:72px;
+    line-height: 50px;
+    color: #BBBBBB;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    left: 590px;
+    top: 77px;
+    background: #E10000;
+}
+
+.title{
+    position: absolute;
+    width: 103px;
+    height: 25px;
+    left: 590px;
+    top: 90px;
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.stay-with{
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 580px;
+    top: 170px;
+    line-height: 20px;
+    color: #DDDDDD;
+}
+
+.facebook{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 580px;
+    top: 200px;
+    line-height: 20px;
+    border-radius: 30px;
+}
+
+.instagram{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 630px;
+    top: 200px;
+    border-radius: 30px;
+    background: #BBBBBB;
+}
+.youtube-border{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 680px;
+    top: 200px;
+    background-color:#BBBBBB;
+    border-radius: 17px;
+}
+.youtube{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 4.5px;
+    top: 7px;
+}
+
+.address-bar{
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 932px;
+    top: 77px;
+    line-height: 20px;
+    color: #DDDDDD;
+}
+
+.second-line{
+    position: absolute;
+    width: 190px;
+    height: 48px;
+    left: 932px;
+    top: 110px;
+    line-height: 24px;
+    /* or 171% */
+    font-size: 14px;    
+    color: #BBBBBB;
+}
+
+.mail-icon{
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    left: 932px;
+    top: 200px;
+}
+
+.mail-text{
+    position: absolute;
+    width: 129px;
+    height: 20px;
+    left: 965px;
+    top: 195px;
+    line-height: 20px;
+    text-align: center;
+    color: #BBBBBB
+}
+
+.phone-icon{
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    left: 934px;
+    top: 225px;
+}
+
+.phone-number{
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    left: 965px;
+    top: 222px;
+    line-height: 20px;
+    
+    color: #BBBBBB;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .order-footer{
+        position: absolute;
+        width: 772px;
+        height: 376px;
+        left: 0px;
+        top: 853px;
+        background: #333333;
+    }
+
+    .footer-items{
+        position: absolute;
+        width: 120px;
+        height: 218.65px;
+        left: 85px;
+        top: 72px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        color: #BBBBBB;
+    }
+    
+    .logo{
+        position: absolute;
+        width: 98.66px;
+        height: 70px;
+        left: 318.17px;
+        top: 77px;
+        
+        background: #E10000;
+    }
+    
+    .title{
+        position: absolute;
+        width: 103px;
+        height: 25px;
+        left: 316px;
+        top: 90px;
+        
+        font-family: Scada;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    
+    .stay-with{
+        position: absolute;
+        width: 121px;
+        height: 20.25px;
+        left: 303px;
+        top: 170px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+    }
+    
+    .facebook{
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 303px;
+        top: 200px;
+
+    }
+    
+    .instagram{
+
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 353px;
+        top: 200px;
+        border-radius: 30px;
+        background: #BBBBBB;
+    }
+    .youtube-border{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 400px;
+        top: 200px;
+        background-color:#BBBBBB;
+        border-radius: 17px;
+    }
+    .youtube{
+        position: absolute;
+        width: 25px;
+        height: 20px;
+        left: 2.8px;
+        top: 5px;
+    }
+    
+    .address-bar{
+
+        position: absolute;
+        width: 133px;
+        height: 20.25px;
+        left: 536px;
+        top: 77px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+    }
+    
+    .second-line{
+        position: absolute;
+        width: 218px;
+        height: 48.59px;
+        left: 493px;
+        top: 110px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        text-align: center;
+        
+        color: #BBBBBB;
+    }
+    
+    .mail-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 526px;
+        top: 200px;
+    }
+    
+    .mail-text{
+        position: absolute;
+        width: 129px;
+        height: 20px;
+        left: 550px;
+        top: 195px;
+        line-height: 20px;
+        text-align: center;
+        color: #BBBBBB;
+    }
+    
+    .phone-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 526px;
+        top: 225px;
+    }
+    
+    .phone-number{
+        position: absolute;
+        width: 97px;
+        height: 20px;
+        left: 550px;
+        top: 222px;
+        line-height: 20px;        
+        color: #BBBBBB;
+    }
+
+    .profile-footer{
+        position: absolute;
+        width: 100%;
+        height: 360px;
+        left: 0px;
+        top: 640px;
+        background: #333333;
+    }
+
+
+    /************************* Home footer section ***********************************/
+
+    .home-footer{
+        position: absolute;
+        width: 768px;
+        height: 778px;
+        left: -7px;
+        top: 3741px;
+        background: #333333;
+
+    }
+
+    .home-footer .footer-items{
+        position: absolute;
+        width: 120px;
+        height: 218.65px;
+        left: 324px;
+        top: 72px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        color: #BBBBBB;
+        text-align: center;
+
+    }
+    
+    .home-footer .logo{
+        position: absolute;
+        width: 105px;
+        height: 70px;
+        left: 324px;
+        top: 360px;
+        background: #E10000;
+    }
+    
+    .home-footer .title{
+        position: absolute;
+        width: 103px;
+        height: 25px;
+        left: 324px;
+        top: 380px;
+        
+        font-family: Scada;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+
+    }
+    
+    .home-footer .stay-with{
+        position: absolute;
+        width: 121px;
+        height: 20.25px;
+        left: 315px;
+        top: 440px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+    }
+    
+    .home-footer .facebook{
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 320px;
+        top: 475px;
+    }
+    
+    .home-footer .instagram{
+
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 365px;
+        top: 475px;
+        border-radius: 30px;
+        background: #BBBBBB;
+
+    }
+    .home-footer .youtube-border{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 405px;
+        top: 475px;
+        background-color:#BBBBBB;
+        border-radius: 17px;
+
+    }
+    
+    .home-footer .address-bar{
+
+        position: absolute;
+        width: 133px;
+        height: 20.25px;
+        left: 320px;
+        top: 550px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+
+    }
+    
+    .home-footer .second-line{
+        position: absolute;
+        width: 218px;
+        height: 48.59px;
+        left: 280px;
+        top: 575px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        text-align: center;
+        
+        color: #BBBBBB;
+    }
+    
+    .home-footer .mail-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 320px;
+        top: 675px;
+
+    }
+    
+    .home-footer .mail-text{
+        position: absolute;
+        width: 129px;
+        height: 20px;
+        left: 345px;
+        top: 670px;
+        line-height: 20px;
+        text-align: center;
+        color: #BBBBBB;
+
+    }
+    
+    .home-footer .phone-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 320px;
+        top: 705px;
+
+    }
+    
+    .home-footer .phone-number{
+        position: absolute;
+        width: 97px;
+        height: 20px;
+        left: 350px;
+        top: 700px;
+        line-height: 20px;        
+        color: #BBBBBB;
+    }
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .profile-footer{
+        position: absolute;
+        width: 360px;
+        height: 788px;
+        left: 0px;
+        top: 1050px;
+        background: #333333;
+    }
+    .order-footer{
+        position: absolute;
+        width: 360px;
+        height: 787.55px;
+        left: 0px;
+        top:1050px;
+        background: #333333;
+    }
+
+    .footer-items{
+        position: absolute;
+        width: 120px;
+        height: 218.65px;
+        left: 120px;
+        top: 72px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        color: #BBBBBB;
+        text-align: center;
+
+    }
+    
+    .logo{
+        position: absolute;
+        width: 105px;
+        height: 70px;
+        left: 140px;
+        top: 360px;
+        background: #E10000;
+    }
+    
+    .title{
+        position: absolute;
+        width: 103px;
+        height: 125px;
+        left: 140px;
+        top: 380px;
+        
+        font-family: Scada;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+
+    }
+    
+    .stay-with{
+        position: absolute;
+        width: 121px;
+        height: 20.25px;
+        left: 130px;
+        top: 440px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+    }
+    
+    .facebook{
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 120px;
+        top: 475px;
+    }
+    
+    .instagram{
+
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 165px;
+        top: 475px;
+        border-radius: 30px;
+        background: #BBBBBB;
+
+    }
+    .youtube-border{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 215px;
+        top: 475px;
+        background-color:#BBBBBB;
+        border-radius: 17px;
+
+    }
+    
+    .address-bar{
+
+        position: absolute;
+        width: 133px;
+        height: 20.25px;
+        left: 120px;
+        top: 550px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+
+    }
+    
+    .second-line{
+        position: absolute;
+        width: 218px;
+        height: 48.59px;
+        left: 95px;
+        top: 575px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        text-align: center;
+        
+        color: #BBBBBB;
+    }
+    
+    .mail-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 120px;
+        top: 675px;
+
+    }
+    
+    .mail-text{
+        position: absolute;
+        width: 129px;
+        height: 20px;
+        left: 141px;
+        top: 670px;
+        line-height: 20px;
+        text-align: center;
+        color: #BBBBBB;
+
+    }
+    
+    .phone-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 120px;
+        top: 705px;
+
+    }
+    
+    .phone-number{
+        position: absolute;
+        width: 97px;
+        height: 20px;
+        left: 141px;
+        top: 700px;
+        line-height: 20px;        
+        color: #BBBBBB;
+    }
+
+    .home-footer{
+        position: absolute;
+        width: 360px;
+        height: 778px;
+        left: -7px;
+        top: 3035px;
+        background: #333333;
+
+    }
+
+    .home-footer .footer-items{
+        position: absolute;
+        width: 120px;
+        height: 218.65px;
+        left: 120px;
+        top: 72px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        color: #BBBBBB;
+        text-align: center;
+
+    }
+    
+    .home-footer .logo{
+        position: absolute;
+        width: 105px;
+        height: 70px;
+        left: 140px;
+        top: 360px;
+        background: #E10000;
+    }
+    
+    .home-footer .title{
+        position: absolute;
+        width: 103px;
+        height: 125px;
+        left: 140px;
+        top: 380px;
+        
+        font-family: Scada;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+
+    }
+    
+    .home-footer .stay-with{
+        position: absolute;
+        width: 121px;
+        height: 20.25px;
+        left: 130px;
+        top: 440px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+    }
+    
+    .home-footer .facebook{
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 120px;
+        top: 475px;
+    }
+    
+    .home-footer .instagram{
+
+        position: absolute;
+        width: 30px;
+        height: 30.37px;
+        left: 165px;
+        top: 475px;
+        border-radius: 30px;
+        background: #BBBBBB;
+
+    }
+    .home-footer .youtube-border{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 215px;
+        top: 475px;
+        background-color:#BBBBBB;
+        border-radius: 17px;
+
+    }
+    
+    .home-footer .address-bar{
+
+        position: absolute;
+        width: 133px;
+        height: 20.25px;
+        left: 120px;
+        top: 550px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #DDDDDD;
+
+    }
+    
+    .home-footer .second-line{
+        position: absolute;
+        width: 218px;
+        height: 48.59px;
+        left: 95px;
+        top: 575px;
+        
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        text-align: center;
+        
+        color: #BBBBBB;
+    }
+    
+    .home-footer .mail-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 120px;
+        top: 675px;
+
+    }
+    
+    .home-footer .mail-text{
+        position: absolute;
+        width: 129px;
+        height: 20px;
+        left: 141px;
+        top: 670px;
+        line-height: 20px;
+        text-align: center;
+        color: #BBBBBB;
+
+    }
+    
+    .home-footer .phone-icon{
+        position: absolute;
+        width: 16px;
+        height: 12px;
+        left: 120px;
+        top: 705px;
+
+    }
+    
+    .home-footer .phone-number{
+        position: absolute;
+        width: 97px;
+        height: 20px;
+        left: 141px;
+        top: 700px;
+        line-height: 20px;        
+        color: #BBBBBB;
+    }
+}

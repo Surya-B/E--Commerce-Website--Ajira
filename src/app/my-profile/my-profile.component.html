@@ -1,0 +1,21 @@
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Scada:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-line1"></div>
+    <div class="profile-outline">
+        <div class="profile-headline">My Profile</div>
+        <input type="text" name="firstname" id="" class="name-box" placeholder="First name">
+        <input type="text" name="lastname" class="name-box2" placeholder="Last name">
+        <input type="email" name="email" class="email" placeholder="Email">
+        <input type="number" name="phone" class="phone-number" placeholder="Phone number">
+        <input type="password" name="password" class="password" placeholder="Password">
+        <input type="password" name="confirmpassword" class="confirm-pass" placeholder="Confirm Password">
+        <div class="add-new-address">
+            <div class="add-new-text">Add new Address</div>
+        </div>
+    </div>
+    <app-footer [profile_footer] = "profileFooter" *ngIf="profileFlag"></app-footer>
+</body>
