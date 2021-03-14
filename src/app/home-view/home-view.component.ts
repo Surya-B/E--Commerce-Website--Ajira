@@ -9,6 +9,9 @@ export class HomeViewComponent implements OnInit {
 
   home_footer=true;
 
+  shirtName = "Printed Polo T-Shirt";
+  Amount = "1,499.00";
+
   constructor() { }
 
   ngOnInit(): void {

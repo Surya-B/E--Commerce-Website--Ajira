@@ -10,10 +10,13 @@ export class FooterComponent implements OnInit {
   @Input() profile_footer = false;
   @Input() home_footer = false;
   @Input() order_footer = false;
+
   constructor() { 
   }
 
   ngOnInit(): void {
   }
+
+  
 
 }

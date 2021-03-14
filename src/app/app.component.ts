@@ -5,21 +5,24 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  profile_flag= false;
-  order_flag= true;
-  home_flag=false;
-  nav_button = false;
+  public profile_flag= false;
+  public order_flag= true;
+  public home_flag=false;
+  public nav_button = false;
+  public mobile_profile = false;
 
   OnProfile(){
     this.profile_flag= true;
     this.order_flag= false;
-    console.log(this.profile_flag);
+    this.mobile_profile = true;
   }
 
   OnOrder(){
     this.profile_flag= false;
     this.order_flag= true;
+    this.mobile_profile = false;
   }
 
   onHome(){

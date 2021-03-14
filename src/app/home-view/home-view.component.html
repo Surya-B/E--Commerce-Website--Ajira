@@ -7,8 +7,9 @@
 <img src="../../assets/images/pant.png" alt="" class="pant">
 <img src="../../assets/images/right-arrow.png" alt="" class="right-arrow">
 
-<div class="model">
     
+
+<div class="model">
     <img src="../../assets/images/model1.png" alt="" class="model">
     <div class="model-text">
        
@@ -56,24 +57,24 @@
 
 <div>
     <div class="jeans1">
-        <div class="shirt">Printed Polo T-Shirt</div>
-        <div class="price-amount">₹1,499.00 </div>
+        <div class="shirt">{{shirtName}}</div>
+        <div class="price-amount">₹{{Amount}}</div>
     </div>
     <div class="user-model1">
-        <div class="shirt">Printed Polo T-Shirt</div>
-        <div class="price-amount">₹1,499.00 </div>
+        <p class="shirt">{{shirtName}}</p>
+        <div class="price-amount">₹{{Amount}}</div>
     </div>
     <div class="jeans2">
-        <div class="shirt">Printed Polo T-Shirt</div>
-        <div class="price-amount">₹1,499.00 </div>
+        <div class="shirt">{{shirtName}}</div>
+        <div class="price-amount">₹{{Amount}}</div>
     </div>
     <div class="user-model2">
-        <div class="shirt">Printed Polo T-Shirt</div>
-        <div class="price-amount">₹1,499.00 </div>
+        <div class="shirt">{{shirtName}}</div>
+        <div class="price-amount">₹{{Amount}}</div>
     </div>
     <div class="jeans3">
-        <div class="shirt">Printed Polo T-Shirt</div>
-        <div class="price-amount">₹1,499.00 </div>
+        <div class="shirt">{{shirtName}}</div>
+        <div class="price-amount">₹{{Amount}}</div>
     </div>
 </div>
 
@@ -84,35 +85,22 @@
         <div class="first-review-user"></div>
         <div class="user-name">Vikas</div>
         <div class="review-comments">Love the cloth material! So breezy and comfortable. Really durable as well. I must say the jeans I bought was worth the price.</div>
-        <img src="../../assets/images/star.png" alt="" class="star-one">
-        <img src="../../assets/images/star.png" alt="" class="star-two">
-        <img src="../../assets/images/star.png" alt="" class="star-three">
-        <img src="../../assets/images/star.png" alt="" class="star-four">
-        <img src="../../assets/images/star.png" alt="" class="star-five">
+        <img src="../../assets/images/Star-Rating.png" alt="" class="star-one">
     </div>
 
     <div class="second-review-comments">
         <div class="first-review-user"></div>
         <div class="user-name">Vikas</div>
         <div class="review-comments">Love the cloth material! So breezy and comfortable. Really durable as well. I must say the jeans I bought was worth the price.</div>
-        <img src="../../assets/images/star.png" alt="" class="star-one">
-        <img src="../../assets/images/star.png" alt="" class="star-two">
-        <img src="../../assets/images/star.png" alt="" class="star-three">
-        <img src="../../assets/images/star.png" alt="" class="star-four">
-        <img src="../../assets/images/star.png" alt="" class="star-five">
+        <img src="../../assets/images/Star-Rating.png" alt="" class="star-one">
     </div>
 
     <div class="third-review-comments">
         <div class="first-review-user"></div>
         <div class="user-name">Vikas</div>
         <div class="review-comments">Love the cloth material! So breezy and comfortable. Really durable as well. I must say the jeans I bought was worth the price.</div>
-        <img src="../../assets/images/star.png" alt="" class="star-one">
-        <img src="../../assets/images/star.png" alt="" class="star-two">
-        <img src="../../assets/images/star.png" alt="" class="star-three">
-        <img src="../../assets/images/star.png" alt="" class="star-four">
-        <img src="../../assets/images/star.png" alt="" class="star-five">
+        <img src="../../assets/images/Star-Rating.png" alt="" class="star-one">
     </div>
-
 </div>
 
 <div>
@@ -126,5 +114,5 @@
         </div>
     </div>
 </div>
-
+<app-pop-view></app-pop-view>
 <app-footer [home_footer] ="home_footer"></app-footer>

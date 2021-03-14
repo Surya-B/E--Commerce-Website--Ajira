@@ -1,19 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-}
-body{
-    font-family: 'Jost';
-    
-}
 
+/************************************* Profile Details *************************************/
 .profile-line1{
     position: absolute;
     width: 300px;
@@ -30,7 +16,6 @@ body{
     height: 530px;
     left: 379px;
     top: 193px;
-    background: #FFFFFF;
     border: 1.5px solid #333333;
     box-sizing: border-box;
 }
@@ -52,7 +37,6 @@ body{
     height: 45px;
     left: 35px;
     top: 90px;
-    background: #FFFFFF;
     border: 1px solid #333333;
     box-sizing: border-box;
     text-align: 20px;
@@ -65,7 +49,6 @@ body{
     height: 45px;
     left: 370px;
     top: 90px;
-    background: #FFFFFF;
     border: 1px solid #D1D1D1;
     box-sizing: border-box;
     padding-left: 25px;
@@ -77,7 +60,6 @@ body{
     height: 45px;
     left: 35px;
     top: 155px;
-    background: #FFFFFF;
     border: 1px solid #D1D1D1;
     box-sizing: border-box;
     padding-left: 25px;
@@ -89,7 +71,6 @@ body{
     height: 45px;
     left: 35px;
     top: 220px;
-    background: #FFFFFF;
     border: 1px solid #D1D1D1;
     box-sizing: border-box;
     padding-left: 25px;
@@ -101,7 +82,6 @@ body{
     height: 45px;
     left: 35px;
     top: 285px;
-    background: #FFFFFF;
     border: 1px solid #D1D1D1;
     box-sizing: border-box;
     padding-left: 25px;
@@ -113,7 +93,6 @@ body{
     height: 45px;
     left: 35px;
     top: 350px;
-    background: #FFFFFF;
     border: 1px solid #D1D1D1;
     box-sizing: border-box;
     padding-left: 25px;
@@ -143,17 +122,15 @@ body{
 }
 
 
+/*************************************** Tablet view ***************************************/
 
 @media only screen and (max-width: 768px){
 
     .profile-line1{
         position: absolute;
         width: 228px;
-        height: 0px;
         left: 29px;
         top: 259px;
-        border-top: 1.5px solid #000000;
-
     }
     
     .profile-outline{
@@ -162,12 +139,7 @@ body{
         height: 516px;
         left: 257px;
         top: 93px;
-        background: #FFFFFF;
-        border: 1.5px solid #333333;
-        box-sizing: border-box;
-
     }
-
 
     .profile-headline{
         position: absolute;
@@ -178,7 +150,6 @@ body{
         font-size: 22px;
         line-height: 32px;
         color: #777777;
-
     }
     
     .name-box{
@@ -187,12 +158,6 @@ body{
         height: 40px;
         left: 20px;
         top: 80px;
-        background: #FFFFFF;
-        border: 1px solid #333333;
-        box-sizing: border-box;
-        text-align: 20px;
-        padding-left: 25px;
-
     }
     
     .name-box2{
@@ -201,11 +166,6 @@ body{
         height: 40px;
         left: 240px;
         top: 80px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .email{
@@ -214,11 +174,6 @@ body{
         height: 40px;
         left: 20px;
         top: 140px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .phone-number{
@@ -227,11 +182,6 @@ body{
         height: 40px;
         left: 20px;
         top: 200px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .password{
@@ -240,11 +190,6 @@ body{
         height: 40px;
         left: 20px;
         top: 260px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .confirm-pass{
@@ -253,10 +198,6 @@ body{
         height: 40px;
         left: 20px;
         top: 320px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
     }
     .add-new-address{
         position: absolute;
@@ -264,20 +205,17 @@ body{
         height: 50px;
         left: 121px;
         top: 416px;
-        background: #333333;
-
     } 
 }
+
+/********************************** Mobile View **********************************/
 
 @media only screen and (max-width: 360px){
     .profile-line1{
         position: absolute;
         width: 290px;
-        height: 0px;
         left: 20px;
-        top: 250px;
-        border-top: 1.5px solid #000000;
-
+        top: 238px;
     }
     
     .profile-outline{
@@ -285,25 +223,12 @@ body{
         width: 310px;
         height: 516px;
         left: 20px;
-        top: 260px;
-        background: #FFFFFF;
+        top: 240px;
         border: none;
-        box-sizing: border-box;
-
     }
 
-
     .profile-headline{
-        position: absolute;
-        width: 102px;
-        height: 23.93px;
-        left: 10px;
-        top: 15px;
-        font-size: 22px;
-        line-height: 32px;
-        color: #777777;
         display: none;
-
     }
     
     .name-box{
@@ -312,11 +237,6 @@ body{
         height: 40px;
         left: 10px;
         top: 50px;
-        background: #FFFFFF;
-        border: 1px solid #333333;
-        box-sizing: border-box;
-        text-align: 20px;
-        padding-left: 25px;
     }
     
     .name-box2{
@@ -325,10 +245,6 @@ body{
         height: 40px;
         left: 10px;
         top: 110px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
     }
     
     .email{
@@ -337,11 +253,6 @@ body{
         height: 40px;
         left: 10px;
         top: 170px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .phone-number{
@@ -350,11 +261,6 @@ body{
         height: 40px;
         left: 10px;
         top: 230px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .password{
@@ -363,11 +269,6 @@ body{
         height: 40px;
         left: 10px;
         top: 290px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
-
     }
     
     .confirm-pass{
@@ -376,11 +277,8 @@ body{
         height: 40px;
         left: 10px;
         top: 350px;
-        background: #FFFFFF;
-        border: 1px solid #D1D1D1;
-        box-sizing: border-box;
-        padding-left: 25px;
     }
+    
     .add-new-address{
         position: absolute;
         width: 280px;

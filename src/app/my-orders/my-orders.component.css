@@ -1,19 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-}
-body{
-    font-family: 'Jost';
-    
-}
 
+/********************** Order Details **********************/
 .order-line1{
     position: absolute;
     width: 300px;
@@ -22,7 +8,6 @@ body{
     top: 420px;
     border-top: 1.5px solid #000000;
 }
-
 
 .order-outline{
     position: absolute;
@@ -62,8 +47,6 @@ body{
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 0;
-    top: 0;
     background: #DDDDDD;
 }
 
@@ -81,7 +64,6 @@ body{
     width: 283px;
     height: 20px;
     left: 120px;
-    top: 0px; 
     line-height: 20px;
     color: #777777;
 }
@@ -110,11 +92,9 @@ body{
 
 .card-option{
     position: absolute;
-    width: 133px;
+    width: 150px;
     height: 20px;
     left: 580px;
-    top: 0;
-    font-family: Jost;
     line-height: 20px;
     color: #777777;
 }
@@ -167,7 +147,6 @@ body{
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 0;
     top: 160px;
     background: #DDDDDD;
 }
@@ -178,7 +157,6 @@ body{
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 0;
     top: 325px;
     background: #DDDDDD;
 }
@@ -208,18 +186,14 @@ body{
 }
 
 
-
-
+/***************************** Tablet view **********************************/
 
 @media only screen and (max-width: 768px){
     
     .order-line1{
         position: absolute;
-        width: 300px;
-        height: 0px;
         left: 29px;
         top: 319px;
-        border-top: 1.5px solid #000000;
     }
     
     
@@ -229,22 +203,14 @@ body{
         height: 660px;
         left: 257px;
         top: 93px;
-        background: #FFFFFF;
-        border: 1.5 px solid #333333;
-        box-sizing: border-box;
     }
     
     .order-headline{
         position: absolute;
-        width: 117px;
-        height: 35px;
         left: 25px;
         top: 23px;
-        font-weight: 600;
         font-size: 22px;
         line-height: 32px;
-        color: #777777;
-
     }
     
     .ordered-items{
@@ -253,7 +219,6 @@ body{
         height: 545px;
         left: 20px;
         top: 79px;
-        background: #FFFFFF;
     }
     
     
@@ -262,10 +227,6 @@ body{
         position: absolute;
         width: 85px;
         height: 85px;
-        left: 0;
-        top: 0;
-        background: #DDDDDD;
-        position: absolute;
     }
     
     .order-image{
@@ -283,12 +244,8 @@ body{
         width: 199px;
         height: 17px;
         left: 100px;
-        top: 0px; 
-        line-height: 20px;
         font-size: 12px;
         line-height: 17px;
-        color: #777777;
-
     }
     
     .order-details{
@@ -296,11 +253,6 @@ body{
         width: 217px;
         height: 46px;
         left: 100px;
-        top: 30px;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 23px;
-        color: #333333;
     }
     
     .order-address{
@@ -308,10 +260,8 @@ body{
         width: 199px;
         height: 17px;
         left: 100px;
-        top: 80px; 
         font-size: 12px;
         line-height: 17px; 
-        color: #777777;
     }
     
     .card-option{
@@ -319,44 +269,24 @@ body{
         width: 108px;
         height: 17px;
         left: 330px;
-        top: 0;
-        font-family: Jost;
         font-size: 12px;
         line-height: 17px;
-        color: #777777;
-
     }
     
     .amount{
         position: absolute;
-        width: 111px;
-        height: 34px;
         left: 315px;
-        top: 20px;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 29px;
-        text-align: right;
-        color: #333333;
     }
     
     .status{
         position: absolute;
         width: 60px;
-        height: 25px;
-        left: 355px;
+        left: 370px;
         top: 90px;
-        color: white;
-        background: #333333;
-        border-radius: 6px 6px 0px 0px;
-        text-align: center;
-
     }
     
     .bottom-arrow{
         position: absolute;
-        width: 15px;
-        height: 10px;
         left: 420px;
         top: 65px;
     }
@@ -364,10 +294,7 @@ body{
     .order-line{
         position: absolute;
         width: 450px;
-        height: 0px;
-        left: 0px;
         top: 115px;
-        border-top: 1.5px solid #DDDDDD;
     }
     
     /***************************** Second Order **********************************/
@@ -376,9 +303,7 @@ body{
         position: absolute;
         width: 85px;
         height: 85px;
-        left: 0;
         top: 140px;
-        background: #DDDDDD;
     }
     
     /***************************** Third Order **********************************/
@@ -387,57 +312,42 @@ body{
         position: absolute;
         width: 85px;
         height: 85px;
-        left: 0;
         top: 280px;
-        background: #DDDDDD;
     }
     
     .status3{
         position: absolute;
-        width: 85px;
-        height: 25px;
         left: 355px;
         top: 90px;
-        color:  #777777;
-        background: #F3F3F3;
-        border-radius: 6px 6px 0px 0px;
-        text-align: center;
     }
-    
-    
+
     /***************************** Fourth Order **********************************/
-    
     .order-border4{
         position: absolute;
         width: 85px;
         height: 85px;
-        left: 0;
         top: 420px;
-        background: #DDDDDD;
     }
 }
 
-
+    /***************************** Mobile View **********************************/
 
 @media only screen and (max-width: 360px){
     .order-line1{
         position: absolute;
         width: 320px;
-        height: 0px;
         left: 20px;
         top: 316px;
-        border-top: 1.5px solid #000000;
     }
     
     
     .order-outline{
         position: absolute;
-        width: 380px;
+        width: 360px;
         height: 643px;
         left: -20px;
         top: 335px;
         border: none;
-        background: #FFFFFF;
     }
     
     .order-headline{
@@ -449,8 +359,6 @@ body{
         font-weight: 500;
         font-size: 18px;
         line-height: 20px;
-        color: #000000;
-
     }
     
     .ordered-items{
@@ -459,8 +367,6 @@ body{
         height: 545px;
         left: 20px;
         top: 49px;
-        background: #FFFFFF;
-
     }
     
     
@@ -471,9 +377,6 @@ body{
         height: 70px;
         left: 5px;
         top: 0;
-        background: #DDDDDD;
-        position: absolute;
-
     }
     
     .order-image{
@@ -483,8 +386,6 @@ body{
         left: 2.5px;
         top: 2.5px;
         background: url(../../assets/images/Item-Model.png);
-
-        
     }
     
     .order-id{
@@ -496,9 +397,6 @@ body{
         line-height: 20px;
         font-size: 12px;
         line-height: 17px;
-        color: #777777;
-
-
     }
     
     .order-details{
@@ -507,11 +405,8 @@ body{
         height: 46px;
         left: 80px;
         top: 20px;
-        font-weight: 600;
         font-size: 12px;
         line-height: 23px;
-        color: #333333;
-
     }
     
     .order-address{
@@ -522,69 +417,43 @@ body{
         top: 80px; 
         font-size: 10px;
         line-height: 17px; 
-        color: #777777;
-
     }
     
     .card-option{
         position: absolute;
-        width: 120px;
+        width: 88px;
         height: 17px;
-        left: 250px;
+        left: 245px;
         top: 0;
-        font-family: Jost;
         font-size: 10px;
         line-height: 17px;
-        color: #777777;
-
-
     }
     
     .amount{
         position: absolute;
-        width: 111px;
-        height: 34px;
         left: 220px;
-        top: 20px;
-        font-weight: 500;
         font-size: 16px;
-        line-height: 29px;
-        text-align: right;
-        color: #333333;
-
     }
     
     .status{
         position: absolute;
         width: 60px;
-        height: 25px;
         left: 275px;
         top: 90px;
-        color: white;
-        background: #333333;
-        border-radius: 6px 6px 0px 0px;
-        text-align: center;
-
-
     }
     
     .bottom-arrow{
         position: absolute;
-        width: 15px;
-        height: 10px;
         left: 300px;
         top: 65px;
-
     }
     
     .order-line{
         position: absolute;
-        width: 350px;
+        width: 335px;
         height: 0px;
         left: 0px;
         top: 115px;
-        border-top: 1.5px solid #DDDDDD;
-
     }
     
     /***************************** Second Order **********************************/
@@ -595,8 +464,6 @@ body{
         height: 70px;
         left: 5px;
         top: 140px;
-        background: #DDDDDD;
-
     }
     
     /***************************** Third Order **********************************/
@@ -605,36 +472,25 @@ body{
         position: absolute;
         width: 70px;
         height: 70px;
-        left: 0;
+        left: 5px;
         top: 280px;
-        background: #DDDDDD;
-
     }
     
     .status3{
         position: absolute;
-        width: 60px;
+        width: 70px;
         height: 25px;
-        left: 275px;
+        left: 265px;
         top: 90px;
-        color:  #777777;
-        background: #F3F3F3;
-        border-radius: 6px 6px 0px 0px;
-        text-align: center;
-
     }
     
-    
     /***************************** Fourth Order **********************************/
-    
     .order-border4{
         position: absolute;
         width: 70px;
         height: 70px;
-        left: 0;
+        left: 5px;
         top: 420px;
-        background: #DDDDDD;
-
     }
 }
 

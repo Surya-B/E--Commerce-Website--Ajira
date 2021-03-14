@@ -1,80 +1,11 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Jost';
-}
 
+/********************** Button Configuration **********************/
 button{
     border: none;
     cursor: pointer;
 }
 
-.nav-button-show{
-    width: 0px;
-    height: 0px; 
-    font-size: 0px; 
-}
-
-.nav-button-show img{
-
-    width: 0px;
-    height: 0px;
-}
-
-.nav-button{
-
-    width: 0px;
-    height: 0px;
-}
-
-.nav-my-profile{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-.nav-normal-text{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-.nav-normal-text1{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-.nav-normal-text2{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-.solid-line{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-.brand{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-.nav-headline{
-    width: 0px;
-    height: 0px;
-    font-size: 0px; 
-}
-
-/* Logo */
+/********************** Logo Configuration **********************/
 label.logo{
     position: absolute;
     width: 98.66px;
@@ -95,16 +26,16 @@ label.logo{
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
     background: #E10000;
     border: none;
 }
 
+/********************** Navigation bar Configuration **********************/
 nav{
     position: absolute;
-    width: 100%;
+    width: 1280px;
     height: 70px;
     left: 0px;
     top: 0px;
@@ -113,112 +44,85 @@ nav{
     box-sizing: border-box;
 }
 
-/* For Me */
+/********************** Navigation List  **********************/
 .forme{
     position: absolute;
     width: 42px;
     height: 20px;
     left: 244.11px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #E10000;
 }
 
-/* Jeans */
+
 .Jeans{
     position: absolute;
     width: 31px;
     height: 20px;
     left: 362.85px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #444444;
 }
 
-/* Shirts */
 .Shirts{
     position: absolute;
     width: 33px;
     height: 20px;
     left: 459.77px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #444444;
 }
 
-/* T-Shirts */
 .T-Shirts{
     position: absolute;
     width: 42px;
     height: 20px;
     left: 559.04px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #444444;
 }
 
-/* .Trousers */
 .Trousers{
     position: absolute;
     width: 49px;
     height: 20px;
     left: 667.86px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #444444;
 }
 
-/* Joggers */
 .Joggers{
     position: absolute;
     width: 45px;
     height: 20px;
     left: 784.69px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #444444;
 }
 
-/* Shorts */
 .Shorts{
     position: absolute;
     width: 37px;
     height: 20px;
     left: 895.77px;
     top: 25px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     color: #444444; 
 }
 
-/* Cart */
 .cart{
     position: absolute;
     width: 20px;
@@ -227,7 +131,6 @@ nav{
     top: 25px;
 }
 
-/* Search */
 .search{
     position: absolute;
     width: 17.51px;
@@ -236,7 +139,6 @@ nav{
     top: 25.98px;
 }
 
-/* Likes */
 .like{
     position: absolute;
     width: 20px;
@@ -245,7 +147,6 @@ nav{
     top: 26px;    
 }
 
-/* User */
 .user{
     position: absolute;
     width: 16px;
@@ -254,20 +155,22 @@ nav{
     top: 27px;
 }
 
-/* Home / My Profile */
+
+
+
+/********************** Current Page Details **********************/
 .home-profile{
     position: absolute;
     width: 103px;
     height: 17px;
     left: 60px;
     top: 104px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 17px;
     color: #777777;
 }
+
+/********************** User Details **********************/
 
 .Grishk{
     position: absolute;
@@ -285,12 +188,8 @@ nav{
     height: 19px;
     left: 159px;
     top: 196px;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    /* or 125% */
     color: #333333;
 }
 
@@ -300,8 +199,6 @@ nav{
     height: 19px;
     left: 159px;
     top: 217px;
-    font-family: Jost;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;  
@@ -310,12 +207,10 @@ nav{
 
 .my-profile{
     position: absolute;
-    width: 74px;
+    width: 80px;
     height: 23px;
     left: 75px;
     top: 303px;
-    font-family: Jost;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 23px;
@@ -329,8 +224,6 @@ nav{
     height: 16px;
     left: 75px;
     top: 327px;
-    font-family: Jost;
-    font-style: normal;
     font-weight: 500;
     font-size: 11px;
     line-height: 16px;
@@ -345,14 +238,27 @@ nav{
     top: 310px;  
 }
 
+/********************** Order Details **********************/
+
 .my-orders{
     position: absolute;
     width: 84px;
     height: 23px;
     left: 75px;
     top: 370px;
-    font-family: Jost;
-    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #222222;
+    background-color: #FFFFFF;
+}
+
+.mobile_my-orders{
+    position: absolute;
+    width: 84px;
+    height: 23px;
+    left: 75px;
+    top: 370px;
     font-weight: 600;
     font-size: 16px;
     line-height: 23px;
@@ -366,13 +272,24 @@ nav{
     height: 16px;
     left: 76px;
     top: 395px; 
-    font-family: Jost;
-    font-style: normal;
     font-weight: 500;
     font-size: 11px;
     line-height: 16px;
     color: #9B9B9B;
 }
+
+.mobile_order-details{
+    position: absolute;
+    width: 113px;
+    height: 16px;
+    left: 76px;
+    top: 395px; 
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
 .second-arrow{
     position: absolute;
     width: 8px;
@@ -381,14 +298,35 @@ nav{
     top: 380px;  
 }
 
+.mobile_second-arrow{
+    position: absolute;
+    width: 8px;
+    height: 11px;
+    left: 250px;
+    top: 380px; 
+}
+
+/********************** Address Details **********************/
+
 .my-address{
     position: absolute;
     width: 143px;
     height: 23px;
     left: 76px;
     top: 438px;  
-    font-family: Jost;
-    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #222222;
+}
+
+
+.mobile_my-address{
+    position: absolute;
+    width: 143px;
+    height: 23px;
+    left: 76px;
+    top: 438px;  
     font-weight: 600;
     font-size: 16px;
     line-height: 23px;
@@ -401,8 +339,17 @@ nav{
     height: 16px;
     left: 76px;
     top: 463px;   
-    font-family: Jost;
-    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px; 
+    color: #9B9B9B;
+}
+.mobile_addres-details{
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 76px;
+    top: 463px;   
     font-weight: 500;
     font-size: 11px;
     line-height: 16px; 
@@ -416,132 +363,23 @@ nav{
     left: 250px;
     top: 450px;  
 }
+.mobile_third-arrow{
+    position: absolute;
+    width: 8px;
+    height: 11px;
+    left: 250px;
+    top: 450px;
+}
 
+
+/********************** Tablet View Configuration **********************/
 
 @media only screen and (max-width: 768px) {
 
-    .nav-button-show{
-        position: absolute;
-        left:730px;
-        top: 15px;
-    }
-
-    .nav-button-show img{
-        width: 15px;
-        height: 15px;
-        left: 750px;
-    }
-
-    .nav-button{
-        position: absolute;
-        width: 580px;
-        height: 600px;
-        left: 250px;
-        top: 0px;
-        border: 1px solid black ;
-        background:#FFFFFF;
-    }
-    
-    .nav-my-profile{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 187px;
-        top: 121px;
-        text-align: center;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: #E10000;
-    }
-    
-    .nav-normal-text{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 0px;
-        top: 40px;
-        font-size: 16px;
-        text-align: center;
-        text-transform: uppercase;
-        color: black;
-    }
-    
-    .nav-normal-text1{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 0px;
-        top: 80px;
-        font-size: 16px;
-        text-align: center;
-        text-transform: uppercase;
-        color: black;
-    }
-    
-    .nav-normal-text2{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 0px;
-        top: 120px;
-        text-align: center;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: black;
-    }
-    
-    .solid-line{
-        position: absolute;
-        width: 420px;
-        height: 0px;
-        left: -100px;
-        top: 180px;
-        
-        border: 1px solid #DDDDDD;
-    }
-    
-    .brand{
-        position: absolute;
-        width: 424px;
-        height: 161px;
-        left: -90px;
-        top: 230px;
-        
-        font-family: Jost;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-        text-transform: uppercase;
-        
-        color: black;
-    }
-    
-    .nav-headline{
-        position: absolute;
-        width: 424px;
-        height: 161px;
-        left: 0px;
-        top: -20px;
-        
-        font-family: Jost;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #E10000;
-    }
-    
-    
+    /********************** Tablet Navigation Configuration **********************/
     label.logo{
         position: absolute;
-        width: 98.66px;
         height: 48px;
-        left: 30.17px;
-        top: 0px;
         background: #E10000;
     }
     
@@ -549,71 +387,34 @@ nav{
         position: absolute;
         width: 768px;
         height: 48px;
-        left: 0px;
-        top: 0px;
-        
-        background: #FFFFFF;
         border: 1px solid #DDDDDD;
-        box-sizing: border-box;
     }
     
-    /* For Me */
+    /********************** Navigation List- Hidden in Tablet Mode **********************/
     .forme{
         display: none;
     }
-    
-    /* Jeans */
     .Jeans{
         display: none;
     }
-    
-    /* Shirts */
     .Shirts{
         display: none;
     }
-    
-    /* T-Shirts */
     .T-Shirts{
         display: none;
     }
-    
-    /* .Trousers */
     .Trousers{
         display: none;
     }
-    
-    /* Joggers */
     .Joggers{
         display: none;
     }
-    
-    /* Shorts */
     .Shorts{
         display: none;
-    }
-    
-    /* Cart */
-    .cart{
-        position: absolute;
-        width: 18.34px;
-        height: 18.33px;
-        left: 674.42px;
-        top: 15.83px;        
-    }
-    
-    /* Search */
-    .search{
-        position: absolute;
-        width: 16.05px;
-        height: 16.05px;
-        left: 626.73px;
-        top: 16.73px;
     }
     .like{
         display: none;
     }
-    
-    /* User */
     .user{
         display: none;
     }
@@ -621,130 +422,127 @@ nav{
         display: none;
     }
 
+    .cart{
+        position: absolute;
+        width: 18.34px;
+        height: 18.33px;
+        left: 674.42px;
+        top: 15.83px;        
+    }
 
+    .search{
+        position: absolute;
+        width: 16.05px;
+        height: 16.05px;
+        left: 626.73px;
+        top: 16.73px;
+    }
+
+    /********************** User Details **********************/
     .Grishk{
         position: absolute;
-        width: 72px;
-        height: 72px;
         left: 20px;
         top: 84px;
         background: url(../assets/images/Grishk.png);
-        border-radius: 50px;
     }
     
     .user-name{
         position: absolute;
-        width: 46px;
-        height: 19px;
         left: 112px;
         top: 99px;
-        font-size: 16px;
-        line-height: 20px;
-        /* or 125% */
-        color: #333333;
+
     }
     
     .email-id{
         position: absolute;
-        width: 180px;
-        height: 19px;
         left: 112px;
         top: 120px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;  
-        color: #9B9B9B;
     }
     
     .my-profile{
         position: absolute;
-        width: 74px;
-        height: 23px;
+        left: 28px;
+        top: 206px;
+    }
+
+    .mobile_my-profile{
+        position: absolute;
         left: 28px;
         top: 206px;
         font-weight: 600;
-        font-size: 16px;
-        line-height: 23px;
-        color: #222222;
-        background-color: #FFFFFF;
     }
     
     .notify{
         position: absolute;
-        width: 114px;
-        height: 16px;
         left: 28px;
         top: 230px;
-        font-family: Jost;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px;
-        color: #9B9B9B;
     }
     
     .first-arrow{
         position: absolute;
-        width: 8px;
         left: 192.12px;
         top: 223.5px;
-
     }
     
     .my-orders{
         position: absolute;
-        width: 84px;
-        height: 23px;
+        left: 28px;
+        top: 268px;
+    }
+
+    .mobile_my-orders{
+        position: absolute;
         left: 28px;
         top: 268px;
         font-weight: 600;
-        font-size: 16px;
-        line-height: 23px;
-        color: #222222;
-        background-color: #FFFFFF;
     }
     
     .order-details{
         position: absolute;
-        width: 113px;
-        height: 16px;
         left: 29px;
         top: 293px;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px;
-        color: #9B9B9B;
     }
+
+    .mobile_order-details{
+        position: absolute;
+        left: 29px;
+        top: 293px;
+    }
+
     .second-arrow{
         position: absolute;
-        width: 8px;
-        height: 11px;
+        left: 192.12px;
+        top: 287.5px;
+    }
+    
+    .mobile_second-arrow{
+        position: absolute;
         left: 192.12px;
         top: 287.5px;
     }
     
     .my-address{
         position: absolute;
-        width: 143px;
-        height: 23px;
         left: 29px;
         top: 341px;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 23px;
-        color: #222222;
+    }
+
+    .mobile_my-address{
+        position: absolute;
+        left: 29px;
+        top: 341px;
     }
     
     .addres-details{
         position: absolute;
-        width: 63px;
-        height: 16px;
         left: 29px;
         top: 366px;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px; 
-        color: #9B9B9B;
+    }
+
+    .mobile_addres-details{
+        position: absolute;
+        left: 29px;
+        top: 366px;
     }
     
     .third-arrow{
@@ -754,186 +552,60 @@ nav{
         left: 192.12px;
         top: 357.5px;
     }
+
+    .mobile_third-arrow{
+        position: absolute;
+        width: 8px;
+        height: 11px;
+        left: 192.12px;
+        top: 357.5px;
+    }
         
 }
 
+/********************** Mobile View Configuration **********************/
 
 @media only screen and (max-width: 360px){
 
-    
-    .nav-button-show{
-        position: absolute;
-        left:310px;
-        top: 15px;
-    }
-
-    .nav-button-show img{
-        width: 15px;
-        height: 15px;
-        left: 750px;
-    }
-
-    .nav-button{
-        position: absolute;
-        width: 280px;
-        height: 600px;
-        left: 80px;
-        top: 50px;
-        border: 1px solid black ;
-        background: #FFFFFF;
-    }
-    
-    .nav-my-profile{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 50px;
-        top: 100px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #E10000;
-    }
-    
-    .nav-normal-text{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 0px;
-        top: 40px;
-        text-align: center;
-        font-size: 12px;
-        text-transform: uppercase;
-        color: black
-    }
-    
-    .nav-normal-text1{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 0px;
-        top: 80px;
-        font-size: 12px;
-        text-align: center;
-        text-transform: uppercase;
-        color: black
-    }
-    
-    .nav-normal-text2{
-        position: absolute;
-        width: 243px;
-        height: 161px;
-        left: 0px;
-        top: 120px;
-        font-size: 12px;
-        text-align: center;
-        text-transform: uppercase;
-        color: black
-    }
-    
-    .solid-line{
-        position: absolute;
-        width: 200px;
-        height: 0px;
-        left: 30px;
-        top: 180px;
-        
-        border: 1px solid #DDDDDD;
-    }
-    
-    .brand{
-        position: absolute;
-        width: 424px;
-        height: 161px;
-        left: -90px;
-        top: 230px;
-        
-        font-family: Jost;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-        text-transform: uppercase;
-        
-        color: black
-    }
-    
-    .nav-headline{
-        position: absolute;
-        width: 424px;
-        height: 161px;
-        left: 0px;
-        top: -20px;
-        
-        font-family: Jost;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #E10000;
-    }
-    
-
-    label.logo{
-        position: absolute;
-        width: 98.66px;
-        height: 48px;
-        left: 32.17px;
-        top: 0px;
-        
-        background: #E10000;
-    }
-    
+    /********************** Navigation bar Configuration **********************/
     nav{
         position: absolute;
         width: 360px;
         height: 48px;
-        left: 0px;
-        top: 0px;
-        
-        background: #FFFFFF;
-        border: 1px solid #DDDDDD;
-        box-sizing: border-box;
     }
     
-    /* For Me */
+   /********************** Navigation List- Hidden in Mobile Mode **********************/
     .forme{
         display: none;
     }
-    
-    /* Jeans */
     .Jeans{
         display: none;
     }
-    
-    /* Shirts */
     .Shirts{
         display: none;
     }
-    
-    /* T-Shirts */
     .T-Shirts{
         display: none;
     }
-    
-    /* .Trousers */
     .Trousers{
         display: none;
     }
-    
-    /* Joggers */
     .Joggers{
         display: none;
     }
-    
-    /* Shorts */
     .Shorts{
         display: none;
     }
-    
-    /* Cart */
+    .like{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .home-profile{
+        display: none;
+    }
+
     .cart{
         position: absolute;
         width: 18.34px;
@@ -942,8 +614,7 @@ nav{
         top: 14.83px;
    
     }
-    
-    /* Search */
+
     .search{
         position: absolute;
         width: 16.05px;
@@ -952,154 +623,109 @@ nav{
         top: 15.73px;
 
     }
-    .like{
-        display: none;
-    }
-    
-    /* User */
-    .user{
-        display: none;
-    }
-    .home-profile{
-        display: none;
-    }
 
+    /********************** User Details **********************/
 
     .Grishk{
         position: absolute;
-        width: 72px;
-        height: 72px;
         left: 20px;
         top: 78px;
         background: url(../assets/images/Grishk.png);
-        border-radius: 50px;
+    }
 
-    }
-    
-    .user-name{
-        position: absolute;
-        width: 46px;
-        height: 19px;
-        left: 112px;
-        top: 93px;
-        font-size: 16px;
-        line-height: 20px;
-        /* or 125% */
-        color: #333333;
-    }
-    
-    .email-id{
-        position: absolute;
-        width: 180px;
-        height: 19px;
-        left: 112px;
-        top: 114px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;  
-        color: #9B9B9B;
-    }
-    
     .my-profile{
         position: absolute;
-        width: 72px;
-        height: 23px;
         left: 22px;
         top: 191.8px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        color: #222222;
-        background-color: #FFFFFF;
-
     }
     
     .notify{
         position: absolute;
-        width: 114px;
-        height: 16px;
         left: 22px;
         top: 214.95px;
-        font-family: Jost;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px;
-        color: #9B9B9B;
     }
     
     .first-arrow{
-
         position: absolute;
         left: 75.04%;
-        top: 35%;
+        top: 34%;
         transform: rotate(90deg);
     }
     
     .my-orders{
         position: absolute;
-        width: 80px;
-        height: 23px;
         left: 22px;
         top: 261px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        color: #222222;
-        background-color: #FFFFFF;
+    }
+
+    .mobile_my-orders{
+        position: absolute;
+        left: 22px;
+        top: 760px;
     }
     
     .order-details{
         position: absolute;
-        width: 113px;
-        height: 16px;
         left: 23px;
         top: 283px;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px;
-        color: #9B9B9B;
     }
+
+    .mobile_order-details{
+        position: absolute;
+        left: 23px;
+        top: 790px;
+    }
+
     .second-arrow{
         position: absolute;
         left: 75.04%;
-        top: 47%;
+        top: 45%;
         transform: rotate(-90deg);
+    }
+
+    .mobile_second-arrow{
+        position: absolute;
+        left: 250px;
+        top: 775px;
+        transform: rotate(90deg);
     }
     
     .my-address{
         position: absolute;
-        width: 143px;
-        height: 23px;
         left: 22px;
         top: 975px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        color: #222222;
+    }
+
+    .mobile_my-address{
+        position: absolute;
+        left: 22px;
+        top: 840px;
     }
     
     .addres-details{
         position: absolute;
-        width: 60px;
-        height: 16px;
         left: 22px;
         top: 1000px;
-        font-weight: 500;
-        font-size: 11px;
-        line-height: 16px; 
-        color: #9B9B9B;
+    }
 
-
+    .mobile_addres-details{
+        position: absolute;
+        left: 22px;
+        top: 860px;
     }
     
     .third-arrow{
         position: absolute;
-        left: 75.04%;
-        top: 170%;
+        left: 250px;
+        top: 985px;
         transform: rotate(90deg);
     }
-    
 
+    .mobile_third-arrow{
+        position: absolute;
+        left: 250px;
+        top: 850px;
+        transform: rotate(90deg);
+    }
 }
 

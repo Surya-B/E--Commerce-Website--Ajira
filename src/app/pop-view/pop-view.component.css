@@ -1,0 +1,127 @@
+/* Pop up View */
+.pop-up-container{
+    display: none;
+}
+.checkbtn{
+    font-size: 22px;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+    margin-right: 15px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .checkbtn{
+        position: absolute;
+        left: 730px;
+        display: block;
+    }
+
+    .pop-up-profile{
+        position: absolute;
+        width: 243px;
+        height: 161px;
+        left: 180px;
+        top: 50px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .pop-up-line{
+        position: absolute;
+        width: 450px;
+        height: 0px;
+        left: 80px;
+        top: 240px;
+        border: 1px solid #DDDDDD;
+    }
+
+    .pop-up-brand{
+        position: absolute;
+        width: 200px;
+        height: 161px;
+        left    : 200px;
+        top: 270px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: black
+    }
+
+    #check:checked ~ .pop-up-container{
+        position: absolute;
+        width: 568px;
+        height: 770px;
+        left: 200px;
+        top: 50px;
+        background: #FFFFFF;
+        box-shadow: 5px 10px 5px 10px #888888;
+        display: block;
+    }
+}
+
+@media (max-width: 360px){
+    .checkbtn{
+        position: absolute;
+        left: 315px;
+        display: block;
+    }
+    
+    .pop-up-profile{
+        position: absolute;
+        width: 117px;
+        height: 161px;
+        left: 90px;
+        top: 60px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: black
+    }
+
+    .pop-up-line{
+        position: absolute;
+        width: 200px;
+        height: 0px;
+        left: 60px;
+        top: 250px;
+        border: 1px solid #DDDDDD;
+    }
+
+    .pop-up-brand{
+        position: absolute;
+        width: 200px;
+        height: 161px;
+        left: 60px;
+        top: 270px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: black
+    }
+
+    #check:checked ~ .pop-up-container{
+        position: absolute;
+        width: 299px;
+        height: 640px;
+        left: 61px;
+        top: 50px;
+        background: #FFFFFF;
+        box-shadow: 5px 10px 5px 10px #888888;
+        display: block;
+    }
+    
+}

@@ -1,18 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: Jost;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-}
-body{
-    font-family: 'Jost';
-}
+/*********************************** Home View Components ************************************/
+
+/*********** This is for Tablet view and we make it hidden in Desktop mode **********/
 .left-arrow{
     position: absolute;
     width: 0px;
@@ -35,7 +23,6 @@ body{
     height: 0px;
     left: 0px;
     top: 0px;
-
 }
 
 .joggers{
@@ -44,7 +31,6 @@ body{
     height: 0px;
     left: 0px;
     top: 0px;
-
 }
 
 .t-shirt{
@@ -53,7 +39,6 @@ body{
     height: 0px;
     left: 0px;
     top: 0px;
-
 }
 
 .printed-shirt{
@@ -62,7 +47,6 @@ body{
     height: 0px;
     left: 0px;
     top: 0px;
-
 }
 
 .pant{
@@ -71,17 +55,8 @@ body{
     height: 0px;
     left: 0px;
     top: 0px;
-
 }
 
-.model{
-    position: absolute;
-    width: 775px;
-    height: 642px;
-    left: -7px;
-    top: 100px;
-
-}
 .model{
     position: absolute;
     width: 1287px;
@@ -114,7 +89,7 @@ body{
 .red-text{
     color:red;
     position: absolute;
-    width: 100%;
+    width: 80px;
     height: 29px;
     left: 115px;
     top: 0px;
@@ -184,7 +159,7 @@ body{
 
 .text1{
     position: absolute;
-    width: 100%;
+    width: 80px;
     height: 29px;
     left: 85px;
     top: 7px;
@@ -209,7 +184,7 @@ body{
     left: 80px;
     top: 0px;
     color:red;
-    width: 100%;
+    width: 80px;
     height: 29px;
     font-size: 20px;
     line-height: 29px;
@@ -218,7 +193,7 @@ body{
 
 .third-model{
     position: absolute;
-    width: 635px;
+    width: 630px;
     height: 365px;
     left: 645px;
     top: 757px;
@@ -248,7 +223,7 @@ body{
 
 .text3{
     position: absolute;
-    width: 162px;
+    width: 80px;
     height: 29px;
     left: 112px;
     top: 10px; 
@@ -258,7 +233,7 @@ body{
 
 .fourth-model{
     position: absolute;
-    width: 635px;
+    width: 630px;
     height: 365px;
     left: 645px;
     top: 1132px;
@@ -290,7 +265,6 @@ body{
     height: 0px;
     left: 60px;
     top: 1569px;
-    
     border: 1px solid #DDDDDD;
 }
 
@@ -300,7 +274,6 @@ body{
     height: 0px;
     left: 772px;
     top: 1569px;
-    
     border: 1px solid #DDDDDD;
 }
 
@@ -390,7 +363,6 @@ body{
     height: 360px;
     left: 0px;
     top: 2051px;
-    
     background: #F9F9F9;
 }
 
@@ -400,11 +372,9 @@ body{
     height: 26px;
     left: 554px;
     top: 50px;
-    
     font-family: BankGothic;
     font-size: 24px;
     line-height: 25px;
-    
     color: #333333;
 }
 
@@ -477,42 +447,10 @@ body{
 
 .star-one{
     position: absolute;
-    width: 13px;
+    width: 75px;
     height: 13px;
-    left: 208px;
+    left: 215px;
     top: 23.34px;
-}
-
-.star-two{
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    left: 228px;
-    top: 23.34px;
-}
-
-.star-three{
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    left: 248px;
-    top: 23.34px;   
-}
-
-.star-four{
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    left: 268px;
-    top: 23.34px;   
-}
-
-.star-five{
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    left: 288px;
-    top: 23.34px;   
 }
 
 .offers-search{
@@ -579,15 +517,11 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    
     color: #FFFFFF;
 }
 
 
-
-
-
-
+/****************************** Tablet view ***********************************/
 @media only screen and (max-width: 768px){
 
     .left-arrow{
@@ -665,80 +599,30 @@ body{
 
     .model{
         position: absolute;
-        width: 775px;
+        width: 768px;
         height: 642px;
-        left: -7px;
+        left: -3px;
         top: 80px;
-
     }
     
     .model-text{
         position: absolute;
-        width: 185px;
-        height: 40px;
         left: 289px;
         top: 477px;
-        
-        background: #FFFFFF;
-        opacity: 0.9;
-    }
-    
-    .text{
-        position: absolute;
-        width: 164px;
-        height: 29px;
-        left: 9px;
-        top: 6px;
-        font-size: 20px;
-        line-height: 29px;
-        color: #333333;
-
-    }
-    
-    .red-text{
-        color:red;
-        position: absolute;
-        width: 100%;
-        height: 29px;
-        left: 115px;
-        top: 0px;
-        font-size: 20px;
-        line-height: 29px;
-
-    }
+    } 
     
     .model-text1{
         position: absolute;
-        width: 185px;
-        height: 39px;
         left: 289px;
         top: 526px;
-        background: #FFFFFF;
-        opacity: 0.9;
     }
     
     .browse{
         position: absolute;
-        width: 240px;
-        height: 50px;
         left: 265px;
         top: 650px;
-        background: #E10000;
     }
-    
-    .browse-text{
-        position: absolute;
-        width: 181px;
-        height: 19px;
-        left: 30px;
-        top: 16px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-    
+
     .second-model{
         position: absolute;
         width: 768px;
@@ -749,25 +633,14 @@ body{
 
     .second-model-text{
         position: absolute;
-        width: 189px;
-        height: 40px;
         left: 300px;
-        top: 330px;
-        background: #FFFFFF;
-        opacity: 0.9;
     }
 
     .second-model-text1{
         position: absolute;
-        width: 185px;
-        height: 39px;
         left: 302px;
-        top: 380px;
-        background: #FFFFFF;
-        opacity: 0.9;
     }
-    
-   
+       
     .third-model{
         position: absolute;
         width: 768px;
@@ -778,13 +651,8 @@ body{
     
     .third-model-text{
         position: absolute;
-        width: 180.34px;
-        height: 39px;
         left: 300px;
-        top: 230px;
-        background: #FFFFFF;
-        opacity: 0.9;
- 
+        top: 230px; 
     }
    
     .fourth-model{
@@ -797,99 +665,51 @@ body{
     
     .fourth-model-text{
         position: absolute;
-        width: 205px;
-        height: 40px;
         left: 300px;
         top: 300px;
-        background: #FFFFFF;
-        opacity: 0.9;
-        font-size: 20px;
-        line-height: 29px;
     }
-    .text4{
-        position: absolute;
-        width: 162px;
-        height: 29px;
-        left: 90px;
-        top: 11px; 
-        font-size: 20px;
-        line-height: 29px; 
-    }
-    
+
     .end-line1{
         position: absolute;
         width: 30px;
-        height: 0px;
         left: 224px;
         top: 2490px;
-        
-        border: 1px solid #DDDDDD;
-
     }
     
     .end-line2{
         position: absolute;
         width: 30px;
-        height: 0px;
         left: 488px;
         top: 2490px;
-        
-        border: 1px solid #DDDDDD;
     }
     
     .latest-col{
         position: absolute;
         width: 320px;
-        height: 21px;
-        left: 210px;
+        left: 260px;
         top: 2478px;
-        
-        font-family: BankGothic;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 21px;
-        /* identical to box height */
-        
-        text-align: center;
-        
-        color: #333333;
     }
-    
     
     .jeans1{
         position: absolute;
-        width: 222px;
-        height: 318px;
         left: 20px;
         top: 2520px;
         background: url(../../assets/images/Jenas.png);
-
     }
     
-
     .jeans2{
         position: absolute;
-        width: 221.88px;
-        height: 318px;
         left: 481px;
         top: 2520px;
         background: url(../../assets/images/Jenas.png);
     }
     
     .jeans3{
-        position: absolute;
-        width: 222px;
-        height: 318px;
-        left: 945px;
-        top: 2520px;
-        background: url(../../assets/images/Jenas.png);
+        display: none;
     }
     
     .user-model1{
         position: absolute;
-        width: 222px;
-        height: 318px;
         left: 250px;
         top: 2520px;  
         background: url(../../assets/images/model.png);
@@ -897,190 +717,86 @@ body{
     
     .user-model2{
         position: absolute;
-        width: 222px;
+        width: 50px;
         height: 318px;
         left: 713px;
         top: 2520px;
         background: url(../../assets/images/model.png);
     }
     
+    .user-model2 .shirt{
+        display: none;
+    }
+
+    .user-model2 .price-amount{
+        display: none;
+    }
+
     .review-section{
         position: absolute;
         width: 768px;
         height: 380px;
         left: -7px;
         top: 2950px;
-        
-        background: #F9F9F9;
     }
     
     .testimonals{
         position: absolute;
-        width: 172px;
-        height: 26px;
         left: 298px;
         top: 30px;
-        
-        font-family: BankGothic;
-        font-size: 24px;
-        line-height: 25px;
-        
-        color: #333333;
     }
     
     .first-review-comments{
         position: absolute;
-        width: 329px;
-        height: 137px;
         left: 28px;
         top: 134px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-        border-radius: 6px;
-
-    }
-    
-    .first-review-user{
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        left: -20px;
-        top: -20px;
-        background: url(../../assets/images/review-user.png);
-        border-radius: 43px;
-
-    }
-    
-    
-    .user-name{
-        position: absolute;
-        width: 32px;
-        height: 20px;
-        left: 25px;
-        top: 20.33px;
-        font-size: 14px;
-        line-height: 20px;
-        color: #404040;
-
-    }
-    
-    .review-comments{
-        position: absolute;
-        width: 279px;
-        height: 60px;
-        left: 25px;
-        top: 50px;
-        font-style: italic;
-        font-weight: normal;
-        line-height: 20px;
-        color: #707070;
-
-    }
-    
+    }    
+        
     .second-review-comments{
         position: absolute;
-        width: 329px;
-        height: 137px;
         left: 380px;
         top: 134px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-        border-radius: 6px;
     }
-    
     .third-review-comments{
-        position: absolute;
-        width: 329px;
-        height: 137px;
-        left: 891px;
-        top: 134px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-        border-radius: 6px;
         display: none;
     }
     
-    
-    
     .offers-search{
-
         position: absolute;
         width: 768px;
         height: 425px;
         left: -7px;
         top: 3320px;
-        opacity: 2.2;
     }
     
     .coupon-details{
         position: absolute;
-        width: 370px;
-        height: 35px;
         left: 200px;
         top: 209px;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 35px;
-        color: #FFFFFF;
-
     }
     
     .subscribe{
         position: absolute;
-        width: 236px;
-        height: 29px;
         left: 280px;
         top: 250px;
-        font-size: 20px;
-        line-height: 29px;
-        color: #FFFFFF;
-
     }
     
     .text-box{
         position: absolute;
-        width: 360px;
-        height: 40px;
         left: 210px;
-        top: 311px;
-        background: #FFFFFF;
-        border: none;
-        padding: 15px;
- 
+        top: 311px; 
     }
     
     .subscribe-button{
         position: absolute;
         width: 360px;
-        height: 40px;
         left: 210px;
         top: 370px; 
-        background: #E10000;
-
     }
-    
-    .sub-text{
-        position: absolute;
-        width: 73px;
-        height: 20px;
-        left: 26px;
-        top: 10px;    
-        font-family: Jost;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        
-        color: #FFFFFF;
-
-    }
-
 }
 
 
-
-
-
+/**************************** Mobile View ************************************/
 @media only screen and (max-width: 360px){
 
     .left-arrow{
@@ -1090,7 +806,6 @@ body{
         left: 5px;
         top: 85px;
         border: none;
-
     }
 
     .right-arrow{
@@ -1159,158 +874,76 @@ body{
 
     .model{
         position: absolute;
-        width: 360px;
+        width: 373px;
         height: 580px;
         left: -7px;
         top: 70px;
-
     }
     
     .model-text{
         position: absolute;
-        width: 185px;
-        height: 40px;
         left: 100px;
         top: 330px;
+    }
         
-        background: #FFFFFF;
-        opacity: 0.9;
-
-    }
-    
-    .text{
-        position: absolute;
-        width: 164px;
-        height: 29px;
-        left: 9px;
-        top: 6px;
-        font-size: 20px;
-        line-height: 29px;
-        color: #333333;
-
-    }
-    
-    .red-text{
-        color:red;
-        position: absolute;
-        width: 100%;
-        height: 29px;
-        left: 115px;
-        top: 0px;
-        font-size: 20px;
-        line-height: 29px;
-
-    }
-    
     .model-text1{
         position: absolute;
-        width: 185px;
-        height: 39px;
         left: 100px;
         top: 380px;
-        background: #FFFFFF;
-        opacity: 0.9;
     }
     
     .browse{
         position: absolute;
-        width: 240px;
-        height: 50px;
         left: 70px;
         top: 450px;
-        background: #E10000;
     }
-    
-    .browse-text{
-        position: absolute;
-        width: 181px;
-        height: 19px;
-        left: 30px;
-        top: 16px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 23px;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-    
+
     .second-model{
         position: absolute;
         width: 360px;
         height: 490px;
-        left: -7px;
+        left: 0px;
         top: 730px;
-
     }
 
     .second-model-text{
         position: absolute;
-        width: 189px;
-        height: 40px;
         left: 100px;
         top: 300px;
-        background: #FFFFFF;
-        opacity: 0.9;
     }
 
     .second-model-text1{
         position: absolute;
-        width: 185px;
-        height: 39px;
         left: 103px;
         top: 350px;
-        background: #FFFFFF;
-        opacity: 0.9;
     }
     
-   
     .third-model{
         position: absolute;
         width: 360px;
         height: 250px;
-        left: -7px;
+        left: 0px;
         top: 1225px;
-
     }
     
     .third-model-text{
         position: absolute;
-        width: 180.34px;
-        height: 39px;
         left: 100px;
         top: 130px;
-        background: #FFFFFF;
-        opacity: 0.9; 
     }
    
     .fourth-model{
         position: absolute;
         width: 360px;
         height: 250px;
-        left: -7px;
+        left: 0px;
         top: 1480px;
     }
     
     .fourth-model-text{
         position: absolute;
-        width: 205px;
-        height: 40px;
         left: 80px;
         top: 150px;
-        background: #FFFFFF;
-        opacity: 0.9;
-        font-size: 20px;
-        line-height: 29px;
-    }
-    .text4{
-        position: absolute;
-        width: 162px;
-        height: 29px;
-        left: 90px;
-        top: 11px; 
-        font-size: 20px;
-        line-height: 29px; 
-
     }
     
     .end-line1{
@@ -1320,7 +953,6 @@ body{
         left: 30px;
         top: 1770px;
         border: 1px solid #DDDDDD;
-
     }
     
     .end-line2{
@@ -1329,186 +961,85 @@ body{
         height: 0px;
         left: 300px;
         top: 1770px;
-        
         border: 1px solid #DDDDDD;
     }
     
     .latest-col{
         position: absolute;
-        width: 320px;
-        height: 21px;
-        left: 20px;
+        width: 275px;
+        left: 75px;
         top: 1760px;
-        
-        font-family: BankGothic;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 21px;
-        /* identical to box height */
-        
-        text-align: center;
-        
-        color: #333333;
     }
-    
     
     .jeans1{
         position: absolute;
-        width: 222px;
-        height: 318px;
         left: 20px;
         top: 1820px;
         background: url(../../assets/images/Jenas.png);
-
     }
     
-
     .jeans2{
-        position: absolute;
-        width: 221.88px;
-        height: 318px;
-        left: 481px;
-        top: 1820px;
-        background: url(../../assets/images/Jenas.png);
         display: none;
     }
     
     .jeans3{
-        position: absolute;
-        width: 222px;
-        height: 318px;
-        left: 945px;
-        top: 2520px;
-        background: url(../../assets/images/Jenas.png);
         display: none;
     }
     
     .user-model1{
         position: absolute;
-        width: 222px;
-        height: 318px;
+        width: 105px;
         left: 250px;
         top: 1820px;  
         background: url(../../assets/images/model.png);
     }
+
+    .user-model1 .shirt{
+        display: none;
+    }
+
+    .user-model1 .price-amount{
+        display: none;
+    }
     
     .user-model2{
-        position: absolute;
-        width: 222px;
-        height: 318px;
-        left: 713px;
-        top: 2520px;
-        background: url(../../assets/images/model.png);
         display: none;
     }
     
     .review-section{
         position: absolute;
-        width: 768px;
-        height: 380px;
+        width: 360px;
+        height: 370px;
         left: -7px;
         top: 2250px;
-        
-        background: #F9F9F9;
     }
     
     .testimonals{
         position: absolute;
-        width: 172px;
-        height: 26px;
         left: 100px;
         top: 40px;
-        
-        font-family: BankGothic;
-        font-size: 24px;
-        line-height: 25px;
-        
-        color: #333333;
     }
     
     .first-review-comments{
         position: absolute;
-        width: 329px;
-        height: 137px;
         left: 28px;
         top: 134px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-        border-radius: 6px;
-
-    }
-    
-    .first-review-user{
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        left: -20px;
-        top: -20px;
-        background: url(../../assets/images/review-user.png);
-        border-radius: 43px;
-
-    }
-    
-    
-    .user-name{
-        position: absolute;
-        width: 32px;
-        height: 20px;
-        left: 25px;
-        top: 20.33px;
-        font-size: 14px;
-        line-height: 20px;
-        color: #404040;
-
-    }
-    
-    .review-comments{
-        position: absolute;
-        width: 279px;
-        height: 60px;
-        left: 25px;
-        top: 50px;
-        font-style: italic;
-        font-weight: normal;
-        line-height: 20px;
-        color: #707070;
-
     }
     
     .second-review-comments{
-        position: absolute;
-        width: 329px;
-        height: 137px;
-        left: 380px;
-        top: 134px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-        border-radius: 6px;
+        display: none;
     }
-    
+
     .third-review-comments{
-        position: absolute;
-        width: 329px;
-        height: 137px;
-        left: 891px;
-        top: 134px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-        border-radius: 6px;
-        
+        display: none;
     }
-    
-    
     
     .offers-search{
-
         position: absolute;
         width: 360px;
         height: 420px;
         left: -7px;
         top: 2620px;
-        opacity: 2.2;
     }
     
     .coupon-details{
@@ -1517,35 +1048,21 @@ body{
         height: 35px;
         left: 50px;
         top: 150px;
-        font-weight: 600;
         font-size: 18px;
-        line-height: 35px;
-        color: #FFFFFF;
-
     }
     
     .subscribe{
         position: absolute;
-        width: 236px;
-        height: 29px;
         left: 90px;
         top: 180px;
         font-size: 16px;
-        line-height: 29px;
-        color: #FFFFFF;
-
     }
     
     .text-box{
         position: absolute;
         width: 300px;
-        height: 40px;
         left: 20px;
         top: 230px;
-        background: #FFFFFF;
-        border: none;
-        padding: 15px;
- 
     }
     
     .subscribe-button{
@@ -1554,26 +1071,7 @@ body{
         height: 40px;
         left: 20px;
         top: 280px; 
-        background: #E10000;
-
     }
-    
-    .sub-text{
-        position: absolute;
-        width: 73px;
-        height: 20px;
-        left: 26px;
-        top: 10px;    
-        font-family: Jost;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 20px;
-        
-        color: #FFFFFF;
-
-    }
-
 }
 
 

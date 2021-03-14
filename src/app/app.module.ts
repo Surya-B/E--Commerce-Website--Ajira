@@ -6,6 +6,8 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { FooterComponent } from './footer/footer.component';
 import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HomeViewComponent } from './home-view/home-view.component';
+import { PopViewComponent } from './pop-view/pop-view.component';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import { HomeViewComponent } from './home-view/home-view.component';
     MyOrdersComponent,
     FooterComponent,
     MyProfileComponent,
-    HomeViewComponent
+    HomeViewComponent,
+    PopViewComponent
   ],
   imports: [
     BrowserModule
